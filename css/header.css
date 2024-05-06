@@ -1,0 +1,30 @@
+@charset "utf-8";
+@import url("reset.css");
+
+/* 탑메뉴 */
+#header .container{ position: relative;}
+#header h1{float: left; margin-top: 20px;}
+.top-menu{position: absolute; top: 14px;  right: 0;}
+.top-menu>ul{float: right;}
+.top-menu>ul>li{float: left;}
+.top-menu>ul>li>a{text-decoration: none; font-size: 12px; color: #666; float: left;}
+.nation span{background: url(../img/bg_nation.png) no-repeat; width: 25px; height: 18px; display: inline-block; vertical-align: top; top: -3px; position: relative; right: 5px;}
+.top-menu>ul>li:after{content: '|'; font-size: 12px; color: #666; margin: 0 9px; vertical-align: top;}
+.top-menu>ul>li .zoomin{background: url(../img/zoom.png) no-repeat; width: 16px; height: 16px; display: block; margin:0 2px;}
+.top-menu>ul>li .zoomout{background: url(../img/zoom.png) no-repeat bottom; width: 16px; height: 16px;}
+.top-menu>ul>select{border: none; vertical-align: top;}
+.top-menu>ul>select option{border: none;}
+
+/* 메뉴 */
+.main-menu{width: 850px; margin-top: 68px; float: left;}
+.main-menu>ul{}
+.main-menu>ul>li{float: left;margin-left: 54px;}
+.main-menu>ul>li>a{display: block; font-size: 18px; color: #333;}
+.menu-list{display: none;}
+
+.btn-top{float: right; margin-top: 68px;}
+.btn-top div{float: left;}
+.btn-search{background: url(../img/btn_sch.png) no-repeat; width: 24px; height: 23px; text-indent: -9999px; margin-right: 20px;}
+.btn-search a{text-indent: -9999px; display: block;}
+.btn-allmenu{background: url(../img/btn_allmenu4.png) no-repeat; width: 83px; height: 23px; font-size: 14px; color: #333; text-indent: 26px;}
+.btn-allmenu a{display: block;}

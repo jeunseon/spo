@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>대검찰청</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>  
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script> 
+    <!-- 카카오맵 -->
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=4b6899ba29709fb87cdbe6595705ad4f"></script>
+
+    <script src="./js/script.js" defer></script>
+    <script src="js/etc-script.js" defer></script>
+    <!--[if (lte IE 9)]>
+		<script src='js/lib/IE9.js'></script>
+	<![endif]-->
+
+	<!--[if (lte IE 8)]>
+		<script src='js/lib/html5shiv.min.js'></script>
+		<link rel='stylesheet' href='#'>
+	<![endif]-->
+
+	<!--[if (lte IE 7)]>
+		<link rel='stylesheet' href='#'>
+	<![endif]-->
+</head>
+<body>
+    <ul id="skip">
+		<li><a href="#header">헤더 바로가기</a></li>
+		<li><a href="#main-menu">메뉴 바로가기</a></li>
+		<li><a href="#banner">배너 바로가기</a></li>
+		<li><a href="#service">민원 내용 바로가기</a></li>
+		<li><a href="#notice">공지사항 바로가기</a></li>
+		<li><a href="#relation">대검찰청 관련 사이트 바로가기</a></li>
+		<li><a href="#siteWrap">전국검찰청 바로가기</a></li>
+		<li><a href="#footer">하단 바로가기</a></li>
+		<li><a href="login.html">로그인 바로가기</a></li>
+	</ul>
+    <div id="wrap">
+        <div id="header">
+            <div class="container">
+                <h1><a href="#" title="대검찰청 로고"><img src="./img/logo.png" alt="대검찰청 로고"></a></h1>
+                <div class="top-menu">
+                    <div class="weather">
+                        <div class="current-weather"></div>
+                        <div class="current-temp"></div>
+                    </div>
+                    <ul>
+                        <li><a class="nation" href="#" title="국가상징안내"><span></span>국가상징안내</a></li>
+                        <li><a href="#" title="역사관체험관">역사관체험관</a></li>
+                        <li>
+                            <a href="javascript:">글자크기 조정</a>
+                            <a href="javascript:" class="zoomin" title="글자크기 키우기"></a>
+                            <a href="javascript:" class="zoomout" title="글자크기 줄이기"></a>
+                        </li>   
+                        <li><a href="login.html" title="로그인">로그인</a></li>      
+                        <li class="lang">
+                            <span>
+                                <a class="now" href="#" title="KOREAN">KOREAN</a>
+                                <a href="#" title="ENGLISH">ENGLISH</a>
+                                <a href="#" title="CHINESE">CHINESE</a>
+                                <a href="#" title="JAPANESE">JAPANESE</a>
+                            </span>
+                        </li>
+                    </ul>
+                </div>   
+            </div>
+            <div class="btn-top">
+                <div class="btn-right">
+                    <div class="btn-search open"><a href="#" title="검색창열기">검색창열기</a></div>
+                    <div class="btn-search close"><a href="#" title="검색창열닫기">검색창닫기</a></div>
+                    <div class="btn-allmenu"><a href="#" title="전체메뉴가기">전체메뉴</a></div>
+                </div>
+                <form>
+                    <div class="sch-wrap">
+                        <div class="sch-inner">
+                            <label for="schw">키워드 검색</label>
+                            <div>
+                                <input id="schw" name="sch_word" type="text" placeholder="검색어를 입력하세요.">
+                                <button class="btn-search"></button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="allmenu-bg"></div>
+                <div class="allmenu-wrap ">
+                    <div class="allmenu-cont">
+                        <div class="allmenu-top">
+                            <h1><a href="#" title="대검찰청 로고"><img src="./img/bg_allmenutit.png" alt="대검찰청 로고"></a></h1>
+                            <button class="close" type="button"></button>
+                        </div>
+                        <div class="menu-wrap">
+                            <ul>
+                                <li>
+                                    <div class="m-list">
+                                        <div class="menu-box">
+                                            <span>참여민원</span>
+                                            <div class="scroll">
+                                                <ul class="tpad">
+                                                    <li><a href="sub1.html" title="민원안내">민원안내</a>
+                                                        <ul>
+                                                            <li><a href="sub1.html" title="민원사무 안내">민원사무 안내</a></li>
+                                                            <li><a href="#" title="민원서식 내려받기">민원서식 내려받기</a></li>
+                                                            <li><a href="#" title="사건처리절차 안내">사건처리절차 안내</a></li>
+                                                            <li><a href="#" title="민원서비스헌장">민원서비스헌장</a></li>
+                                                            <li><a href="#" title="민원안내전화">민원안내전화</a></li>
+                                                            <li><a href="#" title="적극행정제도 소개">적극행정제도 소개</a></li>
+                                                            <li><a href="#" title="적극행정 소식란">적극행정 소식란</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#" title="일반민원">일반민원</a>
+                                                        <ul>
+                                                            <li><a href="#" title="이용안내">이용안내</a></li>
+                                                            <li><a href="#" title="민원신청/확인">민원신청/확인</a></li>
+                                                            <li><a href="#" title="110정부민원안내콜센터">110정부민원안내콜센터</a></li>
+                                                            <li><a href="#" title="공개민원 열람하기">공개민원 열람하기</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#" title="제증명민원" class="nw">제증명민원</a>
+                                                    </li>
+                                                    <li><a href="#" title="벌과금/사건검색">벌과금/사건검색</a>
+                                                        <ul>
+                                                            <li><a href="#" title="사건진행상황조회" class="nw">사건진행상황조회</a></li>
+                                                            <li><a href="#" title="벌과금납부조회" class="nw">벌과금납부조회</a></li>
+                                                            <li><a href="#" title="재판서 및 통지서 조회" class="nw">재판서 및 통지서 조회</a></li>
+                                                            <li><a href="#" title="가납금환급조회" class="nw">가납금환급조회</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#" title="자주묻는질문">자주묻는질문</a>
+                                                    </li>
+                                                    <li><a href="#" title="자유발언대">자유발언대</a>
+                                                    </li>
+                                                    <li><a href="#" title="감동직원추천">감동직원추천</a>
+                                                        <ul>
+                                                            <li><a href="#" title="국민감동직원추천">국민감동직원추천</a></li>
+                                                            <li><a href="#" title="추천서 작성하기">추천서 작성하기</a></li>
+                                                            <li><a href="#" title="내의견 보기">내의견 보기</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="m-list">
+                                        <div  class="menu-box">
+                                            <span>검찰활동</span>
+                                            <div class="scroll">
+                                                <ul>
+                                                    <li><a href="sub2.html" title="주요수사활동">주요수사활동</a>
+                                                        <ul>
+                                                            <li><a href="sub2.html" title="부정부패수사">부정부패수사</a></li>
+                                                            <li><a href="#" title="회계분석ㆍ자금추적 수사지원">회계분석ㆍ자금추적 수사지원</a></li>
+                                                            <li><a href="#" title="기술유출범죄수사">기술유출범죄수사</a></li>
+                                                            <li><a href="#" title="범죄수익환수수사">범죄수익환수수사</a></li>
+                                                            <li><a href="#" title="마약·조직폭력범죄수사">마약·조직폭력범죄수사</a></li>
+                                                            <li><a href="#" title="지식재산권침해범죄수사">지식재산권침해범죄수사</a></li>
+                                                            <li><a href="#" title="과학수사">과학수사</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#" title="공판·형집행">공판·형집행</a>
+                                                        <ul>
+                                                            <li><a href="#" title="공판활동">공판활동</a></li>
+                                                            <li><a href="#" title="형의 집행">형의 집행</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#" title="지원활동">지원활동</a>
+                                                        <ul>
+                                                            <li><a href="#" title="소년선도보호">소년선도보호</a></li>
+                                                            <li><a href="#" title="피해자인권">피해자인권</a></li>
+                                                            <li><a href="#" title="사회공헌">사회공헌</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#" title="국제협력">국제협력</a>
+                                                        <ul>
+                                                            <li><a href="#" title="검찰의 국제공조">검찰의 국제공조</a></li>
+                                                            <li><a href="#" title="국제협력 네트워크">국제협력 네트워크</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="m-list">
+                                        <div class="menu-box">
+                                            <span>정보자료</span>
+                                            <div class="scroll">
+                                                <ul>
+                                                    <li><a href="sub3.html" title="통계자료">통계자료</a>
+                                                        <ul>
+                                                            <li><a href="sub3.html" title="범죄분석">범죄분석</a></li>
+                                                            <li><a href="#" title="범죄동향리포트">범죄동향리포트</a></li>
+                                                            <li><a href="#" title="형사사건동향">형사사건동향</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#" title="연구자료">연구자료</a>
+                                                        <ul>
+                                                            <li><a href="#" title="검찰관련 연구자료">검찰관련 연구자료</a></li>
+                                                            <li><a href="#" title="해외연수검사 연구논문" class="nw">해외연수검사 연구논문</a></li>
+                                                            <li><a href="#" title="검찰연감">검찰연감</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#" title="나라지표상황판">나라지표상황판</a></li>
+                                                    <li><a href="#" title="훈령/예규">훈령/예규</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>    
+                                </li>
+                                <li>
+                                    <div class="m-list">
+                                        <div class="menu-box">
+                                            <span>알림소식</span>
+                                            <div class="scroll">
+                                                <ul>
+                                                    <li><a href="sub4.html" title="공지사항">공지사항</a></li>
+                                                    <li><a href="#" title="고시·공고">고시·공고</a></li>
+                                                    <li><a href="#" title="검찰발표자료">검찰발표자료</a></li>
+                                                    <li><a href="#" title="검찰소식">검찰소식</a>
+                                                        <ul>
+                                                            <li><a href="#" title="생생포토">생생포토</a></li>
+                                                            <li><a href="#" title="생생영상" class="nw">생생영상</a></li>
+                                                            <li><a href="#" title="뉴스레터">뉴스레터</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>   
+                                </li>
+                                <li>
+                                    <div class="m-list">
+                                        <div class="menu-box">
+                                            <span>정보공개</span>
+                                            <div class="scroll">
+                                                <ul>
+                                                    <li><a href="sub5.html" title="정보공개안내">정보공개안내</a>
+                                                        <ul>
+                                                            <li><a href="#" title="정보공개제도란">정보공개제도란</a></li>
+                                                            <li><a href="#" title="업무처리절차">업무처리절차</a></li>
+                                                            <li><a href="#" title="공개청구권자">공개청구권자</a></li>
+                                                            <li><a href="#" title="비공개 대상 정보 세부 기준">비공개 대상 정보 세부 기준</a></li>
+                                                            <li><a href="#" title="정보공개방법">정보공개방법</a></li>
+                                                            <li><a href="#" title="불복구제절차">불복구제절차</a></li>
+                                                            <li><a href="#" title="수수료안내">수수료안내</a></li>
+                                                            <li><a href="#" title="관련서식">관련서식</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#" title="사전정보공표">사전정보공표</a>
+                                                        <ul>
+                                                            <li><a href="#" title="사전정보공표 대상">사전정보공표 대상</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#" title="정보목록">정보목록</a>
+                                                        <ul>
+                                                            <li><a href="#" title="정보목록" class="nw">정보목록</a></li>
+                                                            <li><a href="#" title="2014.3. 이전 검찰청 정보목록">2014.3. 이전 검찰청 정보목록</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#" title="정보공개청구">정보공개청구</a></li>
+                                                    <li><a href="#" title="공공데이터개방">공공데이터개방</a></li>
+                                                    <li><a href="#" title="정책실명제">정책실명제</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>   
+                                </li>
+                                <li>
+                                    <div class="m-list">
+                                        <div class="menu-box">
+                                            <span>검찰소개</span>
+                                            <div class="scroll">
+                                                <ul>
+                                                    <li><a href="sub6.html" title="검찰구성">검찰구성</a>
+                                                        <ul>
+                                                            <li><a href="sub6.html" title="검찰이란?">검찰이란?</a></li>
+                                                            <li><a href="#" title="검찰구성원">검찰구성원</a></li>
+                                                            <li><a href="#" title="검사의 역할">검사의 역할</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#" class="조직 및 업무">조직 및 업무</a>
+                                                        <ul>
+                                                            <li><a href="#" title="부서별연락처">부서별연락처</a></li>
+                                                            <li><a href="#" title="검찰조직구조">검찰조직구조</a></li>
+                                                            <li><a href="#" title="층별안내도">층별안내도</a></li>
+                                                            <li><a href="#" title="대검찰청 배치표">대검찰청 배치표</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#" title="검찰총장소개">검찰총장소개</a>
+                                                        <ul>
+                                                            <li><a href="#" title="검찰총장과의 대화">검찰총장과의 대화</a></li>
+                                                            <li><a href="#" title="총장동정">총장동정</a></li>
+                                                            <li><a href="#" title="발표연설">발표연설</a></li>
+                                                            <li><a href="#" title="역대총장">역대총장</a></li>
+                                                            <li><a href="#" title="주요일정">주요일정</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#" title="검찰CI/CM">검찰CI/CM</a></li>
+                                                    <li><a href="#" title="검찰역사관">검찰역사관</a>
+                                                        <ul>
+                                                            <li><a href="#" title="검찰제도의 변천">검찰제도의 변천</a></li>
+                                                            <li><a href="#" title="복제의 변천">복제의 변천</a></li>
+                                                            <li><a href="#" title="서식의 변천">서식의 변천</a></li>
+                                                            <li><a href="#" title="사건과 이슈">사건과 이슈</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#" title="대검찰청견학">대검찰청견학</a>
+                                                        <ul>
+                                                            <li><a href="#" title="견학안내">견학안내</a></li>
+                                                            <li><a href="#" title="견학신청">견학신청</a></li>
+                                                            <li><a href="#" title="">견학소감</a></li>
+                                                            <li><a href="#" title="">견학소감</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#" title="찾아오시는 길">찾아오시는 길</a></li>
+                                                    <li><a href="#" title="전국검찰청찾기">전국검찰청찾기</a></li>
+                                                    <li><a href="#" title="국가형사사법기록관">국가형사사법기록관</a>
+                                                        <ul>
+                                                            <li><a href="#" title="기록관 소개">기록관 소개</a></li>
+                                                            <li><a href="#" title="견학안내 및 신청">견학안내 및 신청</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#" title="1301검찰콜센터">1301검찰콜센터</a>
+                                                        <ul>
+                                                            <li><a href="#" title="콜센터 소개">콜센터 소개</a></li>
+                                                            <li><a href="#" title="이용안내">이용안내</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>   
+                                </li>
+                                <li>
+                                    <div class="m-list">
+                                        <div class="menu-box">
+                                            <span>이용안내</span>
+                                            <div class="scroll">
+                                                <ul>
+                                                    <li><a href="#" title="이용안내">이용안내</a></li>
+                                                    <li><a href="#" class="홈페이지개선의견">홈페이지개선의견</a></li>
+                                                    <li><a href="#" title="개인정보처리방침">개인정보처리방침</a>
+                                                        <ul>
+                                                            <li><a href="#" title="개인정보처리방침">개인정보처리방침</a></li>
+                                                            <li><a href="#" title="개정이력">개정이력</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#" title="저작권정책">저작권정책</a></li>
+                                                    <li><a href="#" title="글자크기조정안내">글자크기조정안내</a></li>
+                                                    <li><a href="#" title="뷰어다운로드">뷰어다운로드</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>   
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-menu">
+                <ul>
+                    <li><a href="sub1.html" title="참여민원">참여민원</a>
+                        <div class="menu-list">
+                            <div class="menu-box">
+                                <span>참여민원</span>
+                                <div class="scroll">
+                                    <ul>
+                                        <li><a href="sub1.html" title="민원안내">민원안내</a>
+                                            <ul>
+                                                <li><a href="sub1.html" title="민원사무 안내">민원사무 안내</a></li>
+                                                <li><a href="#" title="민원서식 내려받기">민원서식 내려받기</a></li>
+                                                <li><a href="#" title="사건처리절차 안내">사건처리절차 안내</a></li>
+                                                <li><a href="#" title="민원서비스헌장">민원서비스헌장</a></li>
+                                                <li><a href="#" title="민원안내전화">민원안내전화</a></li>
+                                                <li><a href="#" title="적극행정제도 소개">적극행정제도 소개</a></li>
+                                                <li><a href="#" title="적극행정 소식란">적극행정 소식란</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" title="일반민원">일반민원</a>
+                                            <ul>
+                                                <li><a href="#" title="이용안내">이용안내</a></li>
+                                                <li><a href="#" title="민원신청/확인">민원신청/확인</a></li>
+                                                <li><a href="#" title="110정부민원안내콜센터">110정부민원안내콜센터</a></li>
+                                                <li><a href="#" title="공개민원 열람하기">공개민원 열람하기</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" title="제증명민원" class="nw">제증명민원</a>
+                                        </li>
+                                        <li><a href="#" title="벌과금/사건검색">벌과금/사건검색</a>
+                                            <ul>
+                                                <li><a href="#" title="사건진행상황조회" class="nw">사건진행상황조회</a></li>
+                                                <li><a href="#" title="벌과금납부조회" class="nw">벌과금납부조회</a></li>
+                                                <li><a href="#" title="재판서 및 통지서 조회" class="nw">재판서 및 통지서 조회</a></li>
+                                                <li><a href="#" title="가납금환급조회" class="nw">가납금환급조회</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" title="자주묻는질문">자주묻는질문</a>
+                                        </li>
+                                        <li><a href="#" title="자유발언대">자유발언대</a>
+                                        </li>
+                                        <li><a href="#" title="감동직원추천">감동직원추천</a>
+                                            <ul>
+                                                <li><a href="#" title="국민감동직원추천">국민감동직원추천</a></li>
+                                                <li><a href="#" title="추천서 작성하기">추천서 작성하기</a></li>
+                                                <li><a href="#" title="내의견 보기">내의견 보기</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="sub2.html" title="검찰활동">검찰활동</a>
+                        <div class="menu-list">
+                            <div  class="menu-box">
+                                <span>검찰활동</span>
+                                <div class="scroll">
+                                    <ul>
+                                        <li><a href="sub2.html" title="주요수사활동">주요수사활동</a>
+                                            <ul>
+                                                <li><a href="sub2.html" title="부정부패수사">부정부패수사</a></li>
+                                                <li><a href="#" title="회계분석ㆍ자금추적 수사지원">회계분석ㆍ자금추적 수사지원</a></li>
+                                                <li><a href="#" title="기술유출범죄수사">기술유출범죄수사</a></li>
+                                                <li><a href="#" title="범죄수익환수수사">범죄수익환수수사</a></li>
+                                                <li><a href="#" title="마약·조직폭력범죄수사">마약·조직폭력범죄수사</a></li>
+                                                <li><a href="#" title="지식재산권침해범죄수사">지식재산권침해범죄수사</a></li>
+                                                <li><a href="#" title="과학수사">과학수사</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" title="공판·형집행">공판·형집행</a>
+                                            <ul>
+                                                <li><a href="#" title="공판활동">공판활동</a></li>
+                                                <li><a href="#" title="형의 집행">형의 집행</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" title="지원활동">지원활동</a>
+                                            <ul>
+                                                <li><a href="#" title="소년선도보호">소년선도보호</a></li>
+                                                <li><a href="#" title="피해자인권">피해자인권</a></li>
+                                                <li><a href="#" title="사회공헌">사회공헌</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" title="국제협력">국제협력</a>
+                                            <ul>
+                                                <li><a href="#" title="검찰의 국제공조">검찰의 국제공조</a></li>
+                                                <li><a href="#" title="국제협력 네트워크">국제협력 네트워크</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="sub3.html" title="정보자료">정보자료</a>
+                        <div class="menu-list">
+                            <div class="menu-box">
+                                <span>정보자료</span>
+                                <div class="scroll">
+                                    <ul>
+                                        <li><a href="sub3.html" title="통계자료">통계자료</a>
+                                            <ul>
+                                                <li><a href="#" title="범죄분석">범죄분석</a></li>
+                                                <li><a href="#" title="범죄동향리포트">범죄동향리포트</a></li>
+                                                <li><a href="#" title="형사사건동향">형사사건동향</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" title="연구자료">연구자료</a>
+                                            <ul>
+                                                <li><a href="#" title="검찰관련 연구자료">검찰관련 연구자료</a></li>
+                                                <li><a href="#" title="해외연수검사 연구논문" class="nw">해외연수검사 연구논문</a></li>
+                                                <li><a href="#" title="검찰연감">검찰연감</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" title="나라지표상황판">나라지표상황판</a></li>
+                                        <li><a href="#" title="훈령/예규">훈령/예규</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>    
+                    </li>
+                    <li><a href="sub4.html" title="">알림소식</a>
+                        <div class="menu-list">
+                            <div class="menu-box">
+                                <span>알림소식</span>
+                                <div class="scroll">
+                                    <ul>
+                                        <li><a href="sub4.html" title="공지사항">공지사항</a></li>
+                                        <li><a href="#" title="고시·공고">고시·공고</a></li>
+                                        <li><a href="#" title="검찰발표자료">검찰발표자료</a></li>
+                                        <li><a href="#" title="검찰소식">검찰소식</a>
+                                            <ul>
+                                                <li><a href="#" title="생생포토">생생포토</a></li>
+                                                <li><a href="#" title="생생영상" class="nw">생생영상</a></li>
+                                                <li><a href="#" title="뉴스레터">뉴스레터</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>   
+                    </li>
+                    <li><a href="sub5.html" title="정보공개">정보공개</a>
+                        <div class="menu-list">
+                            <div class="menu-box">
+                                <span>정보공개</span>
+                                <div class="scroll">
+                                    <ul>
+                                        <li><a href="sub5.html" title="정보공개안내">정보공개안내</a>
+                                            <ul>
+                                                <li><a href="sub5.html" title="정보공개제도란">정보공개제도란</a></li>
+                                                <li><a href="#" title="업무처리절차">업무처리절차</a></li>
+                                                <li><a href="#" title="공개청구권자">공개청구권자</a></li>
+                                                <li><a href="#" title="비공개 대상 정보 세부 기준">비공개 대상 정보 세부 기준</a></li>
+                                                <li><a href="#" title="정보공개방법">정보공개방법</a></li>
+                                                <li><a href="#" title="불복구제절차">불복구제절차</a></li>
+                                                <li><a href="#" title="수수료안내">수수료안내</a></li>
+                                                <li><a href="#" title="관련서식">관련서식</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" title="사전정보공표">사전정보공표</a>
+                                            <ul>
+                                                <li><a href="#" title="사전정보공표 대상">사전정보공표 대상</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" title="정보목록">정보목록</a>
+                                            <ul>
+                                                <li><a href="#" title="정보목록" class="nw">정보목록</a></li>
+                                                <li><a href="#" title="2014.3. 이전 검찰청 정보목록">2014.3. 이전 검찰청 정보목록</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" title="정보공개청구">정보공개청구</a></li>
+                                        <li><a href="#" title="공공데이터개방">공공데이터개방</a></li>
+                                        <li><a href="#" title="정책실명제">정책실명제</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>   
+                    </li>
+                    <li><a href="sub6.html" title="검찰소개">검찰소개</a>
+                        <div class="menu-list">
+                            <div class="menu-box">
+                                <span>검찰소개</span>
+                                <div class="scroll">
+                                    <ul>
+                                        <li><a href="sub6.html" title="검찰구성">검찰구성</a>
+                                            <ul>
+                                                <li><a href="sub6.html" title="검찰이란?">검찰이란?</a></li>
+                                                <li><a href="#" title="검찰구성원">검찰구성원</a></li>
+                                                <li><a href="#" title="검사의 역할">검사의 역할</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" class="조직 및 업무">조직 및 업무</a>
+                                            <ul>
+                                                <li><a href="#" title="부서별연락처">부서별연락처</a></li>
+                                                <li><a href="#" title="검찰조직구조">검찰조직구조</a></li>
+                                                <li><a href="#" title="층별안내도">층별안내도</a></li>
+                                                <li><a href="#" title="대검찰청 배치표">대검찰청 배치표</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" title="검찰총장소개">검찰총장소개</a>
+                                            <ul>
+                                                <li><a href="#" title="검찰총장과의 대화">검찰총장과의 대화</a></li>
+                                                <li><a href="#" title="총장동정">총장동정</a></li>
+                                                <li><a href="#" title="발표연설">발표연설</a></li>
+                                                <li><a href="#" title="역대총장">역대총장</a></li>
+                                                <li><a href="#" title="주요일정">주요일정</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" title="검찰CI/CM">검찰CI/CM</a></li>
+                                        <li><a href="#" title="검찰역사관">검찰역사관</a>
+                                            <ul>
+                                                <li><a href="#" title="검찰제도의 변천">검찰제도의 변천</a></li>
+                                                <li><a href="#" title="복제의 변천">복제의 변천</a></li>
+                                                <li><a href="#" title="서식의 변천">서식의 변천</a></li>
+                                                <li><a href="#" title="사건과 이슈">사건과 이슈</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" title="대검찰청견학">대검찰청견학</a>
+                                            <ul>
+                                                <li><a href="#" title="견학안내">견학안내</a></li>
+                                                <li><a href="#" title="견학신청">견학신청</a></li>
+                                                <li><a href="#" title="">견학소감</a></li>
+                                                <li><a href="#" title="">견학소감</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" title="찾아오시는 길">찾아오시는 길</a></li>
+                                        <li><a href="#" title="전국검찰청찾기">전국검찰청찾기</a></li>
+                                        <li><a href="#" title="국가형사사법기록관">국가형사사법기록관</a>
+                                            <ul>
+                                                <li><a href="#" title="기록관 소개">기록관 소개</a></li>
+                                                <li><a href="#" title="견학안내 및 신청">견학안내 및 신청</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" title="1301검찰콜센터">1301검찰콜센터</a>
+                                            <ul>
+                                                <li><a href="#" title="콜센터 소개">콜센터 소개</a></li>
+                                                <li><a href="#" title="이용안내">이용안내</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>   
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="banner" class="bgm">
+            <div class="container">
+                <p>국민중심 검찰, 신뢰받는 검찰, 공정한 검찰</p>
+                <!-- Swiper -->
+                <div class="ban_inner ">
+                    <div class="main-b swiper mySwiper2">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide"><a href="#"><img src="./img/banner1.png" alt="국번없이 1301"></a></li>
+                            <li class="swiper-slide"><a href="#"><img src="./img/banner2.png" alt="검찰역사관, 체험관 견학재개"></a></li>
+                            <li class="swiper-slide"><a href="#"><img src="./img/banner3.png" alt="범죄수익신고"></a></li>
+                            <li class="swiper-slide"><a href="#"><img src="./img/banner4.jpg" alt="5.18 재심 및 재기신청"></a></li>
+                        </ul>
+                        <div class="b_btn">
+                            <div class="swiper-button-prev ir_so prev">이전</div>
+                            <button class="stop c_btn ir_so">멈춤</button>
+                            <button class="start c_btn ir_so on">시작</button>
+                            <div class="swiper-button-next ir_so next">다음</div>
+                        </div>
+                    </div>
+                    <div class="sub-m ">
+                        <div class="sub-mw swiper mySwiper3">
+                            <ul class="swiper-wrapper">
+                                <li class="swiper-slide"><a href="#" title="나의사건조회"><img src="./img/direct.png" alt="나의사건조회"><span>나의사건조회</span></a></li>
+                                <li class="swiper-slide"><a href="#" title="증명서발급"><img src="./img/print.png" alt="증명서발급"><span>증명서발급</span></a></li>
+                                <li class="swiper-slide"><a href="#" title="민원서식"><img src="./img/folder.png" alt="민원서식"><span>민원서식</span></a></li>
+                                <li class="swiper-slide"><a href="#" title="연구자료"><img src="./img/download.png" alt="연구자료"><span>연구자료</span></a></li>
+                                <li class="swiper-slide"><a href="#" title="통계자료"><img src="./img/data.png" alt="통계자료"><span>통계자료</span></a></li>
+                                <li class="swiper-slide"><a href="#" title="견학신청"><img src="./img/visit.png" alt="견학신청"><span>견학신청</span></a></li>
+                                <li class="swiper-slide"><a href="#" title="이용안내"><img src="./img/guide.png" alt="이용안내"><span>이용안내</spa></a></li>
+                            </ul>                          
+                        </div>
+                        <div class="swiper-button-prev ir_so button prev">이전</div>
+                        <div class="swiper-button-next ir_so button next">다음</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="service">
+            <div class="container">
+                <h2>맞춤 서비스</h2>
+                <ul class="main-tab">
+                    <li class="on" data-tab="tab1"><a title="온라인민원">온라인민원</a></li>
+                    <li data-tab="tab2"><a title="정보서비스">정보서비스</a></li>
+                    <li data-tab="tab3"><a title="검찰안내">검찰안내</a></li>
+                </ul>
+                <div class="maintab-cont">
+                    <div id="tab1" class="on">
+                        <div class="tit">
+                            <h3>온라인민원</h3>
+                            <a href="#" title="전체보러가기">전체보러가기</a>
+                        </div>
+                        <div class="inbox">
+                            <ul>
+                                <li><a href="#" title="민원안내">민원안내<span></span></a></li>
+                                <li><a href="#" title="일반민원">일반민원<span></span></a></li>
+                                <li><a href="#" title="제증명민원">제증명민원<span></span></a></li>
+                                <li><a href="#" title="벌과금/사건조회">벌과금/사건조회<span></span></a></li>
+                                <li><a href="#" title="자주묻는질문">자주묻는질문<span></span></a></li>
+                                <li><a href="#" title="감동직원추천">감동직원추천<span></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="tab2">
+                        <div class="tit">
+                            <h3>정보서비스</h3>
+                            <a href="#" title="전체보러가기">전체보러가기</a>
+                        </div>
+                        <div class="inbox">
+                            <ul>
+                                <li><a href="#" title="정보공개안내">정보공개안내<span></span></a></li>
+                                <li><a href="#" title="사전정보공표">사전정보공표<span></span></a></li>
+                                <li><a href="#" title="통계자료">통계자료<span></span></a></li>
+                                <li><a href="#" title="연구자료">연구자료<span></span></a></li>
+                                <li><a href="#" title="훈령/예규">훈령/예규<span></span></a></li>
+                                <li><a href="#" title="정보공개청구">정보공개청구<span></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="tab3">
+                        <div class="tit">
+                            <h3>검찰안내</h3>
+                            <a href="#" title="전체보러가기">전체보러가기</a>
+                        </div>
+                        <div class="inbox">
+                            <ul>
+                                <li><a href="#" title="검찰구성">검찰구성<span></span></a></li>
+                                <li><a href="#" title="검찰청조직과업무">검찰청조직과업무<span></span></a></li>
+                                <li><a href="#" title="검찰활동">검찰활동<span></span></a></li>
+                                <li><a href="#" title="찾아오시는길">찾아오시는길<span></span></a></li>
+                                <li><a href="#" title="전국검찰청찾기">전국검찰청찾기<span></span></a></li>
+                                <li><a href="#" title="견학신청">견학신청<span></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="notice">
+            <div class="container">
+                <h2>알림<span>검찰소식,고시·공고 등 검찰의 다양한 소식</span></h2>
+                <ul class="nmain-tab">
+                    <li class="on" data-notion="ntab1"><a title="공지사항">공지사항</a></li>
+                    <li data-notion="ntab2"><a title="검찰소식">검찰소식</a></li>
+                    <li data-notion="ntab3"><a title="고시·공고">고시·공고</a></li>
+                    <li data-notion="ntab4"><a title="검찰발표자료">검찰발표자료</a></li>
+                </ul>
+                <div class="nmaintab-cont">
+                    <div id="ntab1" class="tab-cont on">
+                        <div class="tit">
+                            <h3>공지사항</h3>
+                            <p>검찰의 다양한 <br> 소식을 알려드립니다.</p>
+                            <a href="#" title="전체보러가기">전체보러가기</a>
+                        </div>
+                        <div class="report-list">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <p>[과학수사부] 소식지 「법과 과학」 6월호 게시</p>
+                                        <span class="part"><span>법과학분석과</span></span>
+                                        <span class="desc">[과학수사부] 소식지 「법과 과학」 6월호를 첨부 파일과 같이 게시합니다.</span>
+                                        <span class="info">
+                                            <span class="data">2022.06.16.</span>
+                                            <span class="file"></span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p>디지털 성범죄에 대하여 더욱 엄정 대응하겠습니다</p>
+                                        <span class="part"><span>공판1과</span></span>
+                                        <span class="desc"></span>
+                                        <span class="info">
+                                            <span class="data">2022.06.07.</span>
+                                            <span class="file"></span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p>'Monthly 청렴' 2022년 6월호 게시</p>
+                                        <span class="part"><span>감찰1과</span></span>
+                                        <span class="desc">.</span>
+                                        <span class="info">
+                                            <span class="data">2022.06.03.</span>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="ntab2" class="tab-cont">
+                        <div class="tit">
+                            <h3>검찰소식</h3>
+                            <p>검찰의 생생한 <br> 포토 소식을 제공합니다.</p>
+                            <a href="#" title="전체보러가기">전체보러가기</a>
+                        </div>
+                        <div class="card-list">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <span><img src="./img/article1.JPG" alt="2021년 신임검사 신고식(2021. 8. 2.)"></span>
+                                        <p>2021년 신임검사 신고식(2021. 8. 2.)</p>
+                                        <span class="desc">지난 8월 2일 대검찰청 대회의실에서 신임검사 20명의 신고식(제7회 변시 출신 법무관)이 있었습니다. 김오수 검찰총장은 신임 검사들에게 공익을 대표하는 정의로운 검사, 시대 변화에 맞춘 국민 중심의 검사, 소통하고 전문성을 갖춘 검사가 되기를 당부했습니다.</span>
+                                        <span class="info">
+                                            <span class="data">2021.08.26.</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span><img src="./img/article2.jpg" alt="제44대 김오수 검찰총장 취임식(2021. 6. 1.)"></span>
+                                        <p>제44대 김오수 검찰총장 취임식(2021. 6. 1.)</p>
+                                        <span class="desc">지난 6월 1일 대검찰청 15층 대회의실에서 제44대 김오수 검찰총장의 취임식이 진행되었습니다. 이날 김오수 검찰총장은 취임사를 통해 신뢰받는 검찰, 국민중심 검찰, 공정한 검찰이 되기를 검찰 가족들에게 당부했습니다.</span>
+                                        <span class="info">
+                                            <span class="data">2021.06.18.</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span><img src="./img/article3.JPG" alt="2020년 신규임용 검사 신고식(2020. 8. 3.)"></span>
+                                        <p>2020년 신규임용 검사 신고식(2020. 8. 3.)</p>
+                                        <span class="desc">8월 3일, 대검찰청 15층에서 가족과 함께 하는 ‘신규임용 검사 신고식(제6회 변호사 시험 및 사법연수원 46기 법무관)’이 있었습니다. 윤석열 검찰총장은 축하인사와 함께 헌법정신을 수호하며 설득과 소통의 과정을 통해 인권중심수사를 할 것을 강조하고, 국가와 국민을 위해 어떻게 일할 것인지 끊임없이 자문하는 대한민국 국민검찰이 되기를 당부했습니다.</span>
+                                        <span class="info">
+                                            <span class="data">2020.10.22.</span>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="ntab3" class="tab-cont">
+                        <div class="tit">
+                            <h3>고시·공고</h3>
+                            <p>전국 검찰청의 <br> 고시·공고를 전달합니다.</p>
+                            <a href="#" title="전체보러가기">전체보러가기</a>
+                        </div>
+                        <div class="report-list">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <p>공시송달 공고</p>
+                                        <span class="part"><span><em>광주지방검찰청 목포지청</em> 사무과</span></span>
+                                        <span class="desc">벌과금이 확정되고 납부명령서 기한 내에 납부가 되지 않아 벌과금납부독촉서 및 강제집행예고장을 등기송달(특별송달)하였으나 수취인부재 등의 사유로 반송되어 형사소송법 제477조 제4항, 국세징수법 제24조 제1항, 행정절차법 제14조 제4항, 국세기본법 제11조의 규정에 의거 공시송달하고자 다음과 같이 공고합니다.</span>
+                                        <span class="info">
+                                            <span class="data">2022.06.30.</span>
+                                            <span class="file"></span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p>과태료 미납자 공시 송달 공고</p>
+                                        <span class="part"><span><em>서울동부지방검찰청 목포지청</em> 집행과</span></span>
+                                        <span class="desc">과태료 미납자 공시송달 공고합니다.<br>
+                                            공고기간 : 2022. 6. 30. ~ 2022. 7.13</span>
+                                        <span class="info">
+                                            <span class="data">2022.06.30.</span>
+                                            <span class="file"></span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p>'Monthly 청렴' 2022년 6월호 게시</p>
+                                        <span class="part"><span><em>서울동부지방검찰청 목포지청</em> 집행과</span></span>
+                                        <span class="desc">벌과금 미납자 공시송달 공고 안내입니다.<br><br>
+                                            공시송달기간: 2022. 06. 30. ~ 2022. 07. 13.(14일간)</span>
+                                        <span class="info">
+                                            <span class="data">2022.06.30.</span>
+                                            <span class="file"></span>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="ntab4" class="tab-cont">
+                        <div class="tit">
+                            <h3>검찰발표자료</h3>
+                            <p>전국 검찰청의 <br> 발표자료를 전달합니다.</p>
+                            <a href="#" title="전체보러가기">전체보러가기</a>
+                        </div>
+                        <div class="report-list">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <p>위증 집중 단속으로 '법정 피노키오' 엄단</p>
+                                        <span class="part"><span>대전지방검찰청</span></span>
+                                        <span class="desc"></span>
+                                        <span class="info">
+                                            <span class="data">2022.06.24.</span>
+                                            <span class="file"></span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p>갈등치유팀을 통한 가족, 이웃 간 고질적·지속적 분쟁사건 해결 노력</p>
+                                        <span class="part"><span>서울고등검찰청</span></span>
+                                        <span class="desc"></span>
+                                        <span class="info">
+                                            <span class="data">2022.06.24.</span>
+                                            <span class="file"></span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p>가출 대학생에게 비인간적인 폭력과 가혹행위를 일삼은 폭력 사범 4명 기소</p>
+                                        <span class="part"><span>대구지방검찰청</span></span>
+                                        <span class="desc">.</span>
+                                        <span class="info">
+                                            <span class="data">2022.06.24.</span>
+                                            <span class="file"></span>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="etc">
+            <div class="container">
+                <div class="cf table">
+                    <div class="inbox">
+                        <ul class="cf">
+                            <li><a href="#" title="역사체험관">역사체험관<span></span></a></li>
+                            <li><a href="#" title="형사사법포털">형사사법포털<span></span></a></li>
+                            <li><a href="#" title="안전신고">안전신고<span></span></a></li>
+                            <li><a href="#" title="형사지식공개">형사지식공개<span></span></a></li>
+                            <li><a href="#" title="초대검사 이준">초대검사 이준<span></span></a></li>
+                            <li><a href="#" title="검찰복지·징검다리">검찰복지·징검다리<span></span></a></li>
+                        </ul>
+                    </div>
+                    <div class="yt-box">
+                        <span>검찰방송</span>
+                        <a class="more ir_so" href="#" title="새창-대검찰청 유튜브">더보기</a>
+                        <div class="tv-box">
+                            <a href="#" title="새창_대검찰청 유튜브" target="_blank"><span><img src="./img/video.jpg" alt="대검찰청 유튜브"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="news" class="news">
+            <div class="container">
+                <div class="news-wrap">
+                    <h2>동아일보</h2>
+                    <div class="donga-news"></div>
+                </div>
+                <div class="kakaoMap">
+                    <div id="kakaoMap" class="kakao-map"></div>
+                    <!-- 지도타입 컨트롤 div 입니다 -->
+                    <div class="custom_typecontrol radius_border">
+                        <span id="btnRoadmap" class="selected_btn" onclick="setMapType('roadmap')">지도</span>
+                        <span id="btnSkyview" class="btn" onclick="setMapType('skyview')">스카이뷰</span>
+                    </div>
+                    <!-- 지도 확대, 축소 컨트롤 div 입니다 -->
+                    <div class="custom_zoomcontrol radius_border"> 
+                        <span onclick="zoomIn()"><img src="https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/ico_plus.png" alt="확대"></span>  
+                        <span onclick="zoomOut()"><img src="https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/ico_minus.png" alt="축소"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="relation">
+            <div class="container">
+                <div class="roll-site swiper mySwiper1">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide"><a href="#"><img src="./img/b_banner1.png" alt="일상 생활 속 개인정보"></a></li>
+                        <li class="swiper-slide"><a href="#"><img src="./img/b_banner2.jpg" alt="2022년 통계데이터 분석 활용대회 안내"></a></li>
+                        <li class="swiper-slide"><a href="#"><img src="./img/b_banner3.jpg" alt="전사,순직 군인의 유가족을 찾습니다."></a></li>
+                        <li class="swiper-slide"><a href="#"><img src="./img/b_banner4.jpg" alt="공익신고자 보호법 홍보"></a></li>
+                        <li class="swiper-slide"><a href="#"><img src="./img/b_banner5.gif" alt="적극행정"></a></li>
+                        <li class="swiper-slide"><a href="#"><img src="./img/b_banner6.png" alt="찾기쉬운 생활법령정보"></a></li>
+                        <li class="swiper-slide"><a href="#"><img src="./img/b_banner7.png" alt="국민권익위원회"></a></li>
+                        <li class="swiper-slide"><a href="#"><img src="./img/b_banner8.png" alt="누리과정"></a></li>
+                        <li class="swiper-slide"><a href="#"><img src="./img/b_banner9.png" alt="국립국어원 공공언어 통합 지원"></a></li>
+                        <li class="swiper-slide"><a href="#"><img src="./img/b_banner10.png" alt="e하늘보건복지부장사정보시스템"></a></li>
+                        <li class="swiper-slide"><a href="#"><img src="./img/b_banner11.png" alt="개인정보분쟁조정위원회"></a></li>
+                        <li class="swiper-slide"><a href="#"><img src="./img/b_banner12.png" alt="자랑스러운 공무원이야기"></a></li>
+                        <li class="swiper-slide"><a href="#"><img src="./img/b_banner13.png" alt="법안전융합연구소"></a></li>
+                        <li class="swiper-slide"><a href="#"><img src="./img/b_banner14.png" alt="법사랑 사이버랜드"></a></li>
+                        <li class="swiper-slide"><a href="#"><img src="./img/b_banner15.png" alt="법무부범죄예방위원 전국연합회"></a></li>
+                        <li class="swiper-slide"><a href="#"><img src="./img/b_banner16.png" alt="법무부"></a></li>
+                        <li class="swiper-slide"><a href="#"><img src="./img/b_banner17.png" alt="독도연구소"></a></li>
+                        <li class="swiper-slide"><a href="#"><img src="./img/b_banner18.png" alt="대한법률구조공단"></a></li>
+                        <li class="swiper-slide"><a href="#"><img src="./img/b_banner19.png" alt="전국범죄피해자지원연합회"></a></li>
+                        <li class="swiper-slide"><a href="#"><img src="./img/b_banner20.png" alt="국방헬프콜1303"></a></li>
+                        <li class="swiper-slide"><a href="#"><img src="./img/b_banner21.png" alt="국민추천제"></a></li>
+                        <li class="swiper-slide"><a href="#"><img src="./img/b_banner22.png" alt="공익신고 청렴신문고"></a></li>
+                        <li class="swiper-slide"><a href="#"><img src="./img/b_banner23.png" alt="고용노동부 일자리 안정자금"></a></li>
+                        <li class="swiper-slide"><a href="#"><img src="./img/b_banner24.png" alt="정부24"></a></li>
+                        <li class="swiper-slide"><a href="#"><img src="./img/b_banner25.png" alt="청탁금지법 통합검색"></a></li>
+                        <li class="swiper-slide"><a href="#"><img src="./img/b_banner26.png" alt="정책정보포털(POINT)"></a></li>
+                        
+                    </ul>
+                    
+                </div>
+                <div class="ctrl">
+                    <button class="stop c_btn ir_so">멈춤</button>
+                    <button class="start c_btn on ir_so">시작</button>
+                    <div class="swiper-button-prev prev"></div>
+                    <div class="swiper-button-next next"></div>
+                    <a class="more" title="배너모음 페이지 바로가기"></a>
+                </div>
+            </div>
+        </div>
+        <div class="more-site">
+            <div class="pop">
+                <div class="pop-head">
+                    <strong>유관기관배너 전체보기</strong>
+                    <button class="close"></button>
+                </div>
+                <div class="pop-cont">
+                    <table>
+                        <caption class="ir_so">유관기관배너 전체보기</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">배너</th>
+                                <th scope="col">바로가기</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row"><img src="./img/b_banner1.png" alt="일상 생활 속 개인정보"></th>
+                                <td><a href="#" title="일상 생활 속 개인정보">바로가기</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><img src="./img/b_banner2.jpg" alt="2022년 통계데이터 분석 활용대회 안내"></th>
+                                <td><a href="#" title="2022년 통계데이터 분석 활용대회 안내">바로가기</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><img src="./img/b_banner3.jpg" alt="전사,순직 군인의 유가족을 찾습니다."></th>
+                                <td><a href="#" title="전사,순직 군인의 유가족을 찾습니다.">바로가기</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><img src="./img/b_banner4.jpg" alt="공익신고자 보호법 홍보"></th>
+                                <td><a href="#" title="공익신고자 보호법 홍보">바로가기</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><img src="./img/b_banner5.gif" alt="적극행정"></th>
+                                <td><a href="#" title="적극행정">바로가기</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><img src="./img/b_banner6.png" alt="찾기쉬운 생활법령정보"></th>
+                                <td><a href="#" title="찾기쉬운 생활법령정보">바로가기</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><img src="./img/b_banner7.png" alt="국민권익위원회"></th>
+                                <td><a href="#" title="국민권익위원회">바로가기</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><img src="./img/b_banner8.png" alt="누리과정"></th>
+                                <td><a href="#" title="누리과정">바로가기</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><img src="./img/b_banner9.png" alt="국립국어원 공공언어 통합 지원"></th>
+                                <td><a href="#" title="국립국어원 공공언어 통합 지원">바로가기</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><img src="./img/b_banner10.png" alt="e하늘보건복지부장사정보시스템"></th>
+                                <td><a href="#" title="e하늘보건복지부장사정보시스템">바로가기</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><img src="./img/b_banner11.png" alt="개인정보분쟁조정위원회"></th>
+                                <td><a href="#" title="개인정보분쟁조정위원회">바로가기</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><img src="./img/b_banner12.png" alt="자랑스러운 공무원이야기"></th>
+                                <td><a href="#" title="자랑스러운 공무원이야기">바로가기</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><img src="./img/b_banner13.png" alt="법안전융합연구소"></a></th>
+                                <td><a href="#" title="법안전융합연구소">바로가기</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><img src="./img/b_banner14.png" alt="법사랑 사이버랜드"></th>
+                                <td><a href="#" title="법사랑 사이버랜드">바로가기</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><img src="./img/b_banner15.png" alt="법무부범죄예방위원 전국연합회"></th>
+                                <td><a href="#" title="법무부범죄예방위원 전국연합회">바로가기</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><img src="./img/b_banner16.png" alt="법무부"></th>
+                                <td><a href="#" title="법무부">바로가기</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><img src="./img/b_banner17.png" alt="독도연구소"></th>
+                                <td><a href="#" title="독도연구소">바로가기</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><img src="./img/b_banner18.png" alt="대한법률구조공단"></th>
+                                <td><a href="#" title="대한법률구조공단">바로가기</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><img src="./img/b_banner19.png" alt="전국범죄피해자지원연합회"></th>
+                                <td><a href="#" title="전국범죄피해자지원연합회">바로가기</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><img src="./img/b_banner20.png" alt="국방헬프콜1303"></th>
+                                <td><a href="#" title="국방헬프콜1303">바로가기</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><img src="./img/b_banner21.png" alt="국민추천제"></th>
+                                <td><a href="#" title="국민추천제">바로가기</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><img src="./img/b_banner22.png" alt="공익신고 청렴신문고"></th>
+                                <td><a href="#" title="공익신고 청렴신문고">바로가기</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><img src="./img/b_banner23.png" alt="고용노동부 일자리 안정자금"></th>
+                                <td><a href="#" title="고용노동부 일자리 안정자금">바로가기</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><img src="./img/b_banner24.png" alt="정부24"></th>
+                                <td><a href="#" title="정부24">바로가기</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><img src="./img/b_banner25.png" alt="청탁금지법 통합검색"></th>
+                                <td><a href="#" title="청탁금지법 통합검색">바로가기</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><img src="./img/b_banner26.png" alt="정책정보포털(POINT)"></th>
+                                <td><a href="#" title="정책정보포털(POINT)">바로가기</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div id="siteWrap">
+            <div class="container">
+                <div class="site-list">
+                    <a title="전국검찰청 바로가기">전국검찰청 바로가기<span></span></a>
+                    <div class="pop-box">
+                        <ul>
+                            <li><a href="#" title="대검찰청" class="solo">대검찰청</a></li>
+                            <li>
+                                <a href="#" title="서울고등검찰청">서울고등검찰청</a>
+                                <div>
+                                    <ul class="seoul">
+                                        <li class="site-main"><a href="#" title="서울중앙지방검찰청">서울중앙지방검찰청</a></li>
+                                        <li class="site-main"><a href="#" title="서울동부지방검찰청">서울동부지방검찰청</a></li>
+                                        <li class="site-main"><a href="#" title="서울남부지방검찰청">서울남부지방검찰청</a></li>
+                                        <li class="site-main"><a href="#" title="서울북부지방검찰청">서울북부지방검찰청</a></li>
+                                        <li class="site-main"><a href="#" title="서울서부지방검찰청">서울서부지방검찰청</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <a href="#" title="의정부지방검찰청">의정부지방검찰청</a>
+                                    <ul>
+                                        <li><a href="#" title="고양지청">고양지청</a></li>
+                                        <li><a href="#" title="남양주지청">남양주지청</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <a href="#" title="인천지방검찰청">인천지방검찰청</a>
+                                    <ul>
+                                        <li><a href="#" title="부천지청">부천지청</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <a href="#" title="춘천지방검찰청">춘천지방검찰청</a>
+                                    <ul>
+                                        <li><a href="#" title="강릉지청">강릉지청</a></li>
+                                        <li><a href="#" title="원주지청">원주지청</a></li>
+                                        <li><a href="#" title="속초지청">속초지청</a></li>
+                                        <li><a href="#" title="영월지청">영월지청</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#" title="수원고등검찰청">수원고등검찰청</a>
+                                <div>
+                                    <a href="#" title="수원지방검찰청">수원지방검찰청</a>
+                                    <ul>
+                                        <li><a href="#" title="성남지청">성남지청</a></li>
+                                        <li><a href="#" title="여주지청">여주지청</a></li>
+                                        <li><a href="#" title="평택지청">평택지청</a></li>
+                                        <li><a href="#" title="안산지청">안산지청</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#" title="대전고등검찰청">대전고등검찰청</a>
+                                <div>
+                                    <a href="#" title="대전지방검찰청">대전지방검찰청</a>
+                                    <ul>
+                                        <li><a href="#" title="홍성지청">홍성지청</a></li>
+                                        <li><a href="#" title="공주지청">공주지청</a></li>
+                                        <li><a href="#" title="논산지청">논산지청</a></li>
+                                        <li><a href="#" title="서산지청">서산지청</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <a href="#" title="청주지방검찰청">청주지방검찰청</a>
+                                    <ul>
+                                        <li><a href="#" title="충주지청">충주지청</a></li>
+                                        <li><a href="#" title="제천지청">제천지청</a></li>
+                                        <li><a href="#" title="영동지청">영동지청</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#" title="대구고등검찰청">대구고등검찰청</a>
+                                <div>
+                                    <a href="#" title="대구지방검찰청">대구지방검찰청</a>
+                                    <ul>
+                                        <li><a href="#" title="서부지청">서부지청</a></li>
+                                        <li><a href="#" title="안동지청">안동지청</a></li>
+                                        <li><a href="#" title="경주지청">경주지청</a></li>
+                                        <li><a href="#" title="포항지청">포항지청</a></li>
+                                        <li><a href="#" title="의성지청">의성지청</a></li>
+                                        <li><a href="#" title="영덕지청">영덕지청</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#" title="부산고등검찰청">부산고등검찰청</a>
+                                <div>
+                                    <a href="#" title="부산지방검찰청">부산지방검찰청</a>
+                                    <ul>
+                                        <li><a href="#" title="동부지청">동부지청</a></li>
+                                        <li><a href="#" title="서부지청">서부지청</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <a href="#" title="울산지방검찰청">울산지방검찰청</a>
+                                </div>
+                                <div>
+                                    <a href="#" title="창원지방검찰청">창원지방검찰청</a>
+                                    <ul>
+                                        <li><a href="#" title="마산지청">마산지청</a></li>
+                                        <li><a href="#" title="진주지청">진주지청</a></li>
+                                        <li><a href="#" title="통영지청">통영지청</a></li>
+                                        <li><a href="#" title="밀양지청">밀양지청</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#" title="광주고등검찰청">광주고등검찰청</a>
+                                <div>
+                                    <a href="#" title="광주지방검찰청">광주지방검찰청</a>
+                                    <ul>
+                                        <li><a href="#" title="목포지청">목포지청</a></li>
+                                        <li><a href="#" title="장흥지청">장흥지청</a></li>
+                                        <li><a href="#" title="순천지청">순천지청</a></li>
+                                        <li><a href="#" title="해남지청">해남지청</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <a href="#" title="전주지방검찰청">전주지방검찰청</a>
+                                    <ul>
+                                        <li><a href="#" title="군산지청">군산지청</a></li>
+                                        <li><a href="#" title="정읍지청">정읍지청</a></li>
+                                        <li><a href="#" title="남원지청">남원지청</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <a href="#" title="제주지방검찰청">제주지방검찰청</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div id="footer">
+            <div class="container">
+                <h1><a href="#" title="대검찰청 logo">logo</a></h1>
+                <div class="inner">
+                    <div class="f-menu">
+                        <ul>
+                            <li><a href="#" title="찾아오시는 길">찾아오시는 길</a></li>
+                            <li><a href="#" title="개인정보처리방침">개인정보처리방침</a></li>
+                            <li><a href="#" title="홈페이지개선의견">홈페이지개선의견</a></li>
+                            <li><a href="#" title="이용안내">이용안내</a></li>
+                            <li><a href="#" title="뷰어다운로드">뷰어다운로드</a></li>
+                            <li><a href="#" title="저작권정책">저작권정책</a></li>
+                        </ul>
+                    </div> 
+                    <div class="adr">
+                        <address>
+                            <p>우편번호 : 06590 서울특별시 서초구 반포대로 157</p>
+                            <p>대표전화 : 국번없이 1301(유료)</p>
+                        </address>
+                        <p>COPYRIGHT ⓒ PROSECUTION SERVICE. <span>ALL RIGHTS RESERVED.</span></p>
+                    </div>
+                </div>
+                <div class="sns">
+                    <ul>
+                        <li><a class="web" href="http://www.wa.or.kr/board/list.asp?BoardID=0006" title="웹접근성인증마크">웹접근성인증마크</a></li>
+                        <li><a class="blog" href="https://blog.naver.com/pro_to_u" title="네이버블로그">네이버블로그</a></li>
+                        <li><a class="insta" href="https://www.instagram.com/pro_to_u/" title="대검찰성인스타그램">대검찰성인스타그램</a></li>
+                        <li><a class="facebook" href="https://www.facebook.com/ProsecutionService" title="대검찰성페이스북">대검찰성페이스북</a></li>
+                        <li><a class="ytb" href="https://www.youtube.com/user/spbstv" title="대검찰청유튜브">대검찰청유튜브</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

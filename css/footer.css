@@ -1,0 +1,37 @@
+@charset "utf-8";
+@import url("reset.css");
+
+/* 전국검찰청 */
+.site-list{}
+.site-list a{width: 192px; height: 52px; background-color: #f6f4f3; border: 1px solid #ddd; border-bottom: none; position: absolute; top: 0; right: 0; color: #666; font-size: 15px; text-align: center; line-height: 52px;}
+.site-list a span{background: url(../img/bg_sitebtn.png) no-repeat; width: 11px; height: 8px; margin-top: 21px; float: right;padding-right: 23px; box-sizing: border-box;}
+.site-list .pop-box{display: none;}
+
+/* 하단 */
+#footer .container{padding-top: 27px; box-sizing: border-box;}
+#footer h1{float: left;}
+#footer h1>a{background: url(../img/bg_footerlogo.png) no-repeat; width: 80px; height: 75px; overflow: hidden; text-indent: -999px; display: block;}
+.inner{float: left; margin-left: 80px;}
+.inner address{}
+.inner a p{}
+.f-menu{}
+.f-menu ul{display: table;}
+.f-menu ul li{display:table-cell;}
+.f-menu ul li a{font-size: 15px; color: #333;}
+.f-menu ul li:nth-child(2) a{color: #346d94;}
+.f-menu ul li a::after{content: '|'; display: inline-block; padding: 0 8px; vertical-align: top; color: #d5d5d5;}
+.f-menu ul li:last-child a::after{content: '';}
+.adr{}
+.adr address{margin-top: 15px;}
+.adr address p{float: left; padding-right: 20px; font-size: 15px; color: #666;}
+.adr>p{clear: both; line-height: 25px; font-size: 12px; color: #666;}
+
+.sns{position: absolute; right:0; top: 27px;}
+.sns ul{}
+.sns ul li{float: left;}
+.sns ul li a{text-indent: -9999px; width: 36px; height: 36px; display: block;}
+.sns ul li .web{background: url(../img/ico_wa.png) no-repeat; width: 49px; height: 33px; margin-right: 18px;}
+.sns ul li .blog{background: url(../img/bg_sns.png) no-repeat 0 0;}
+.sns ul li .insta{background: url(../img/bg_sns.png) no-repeat 0 33%;}
+.sns ul li .facebook{background: url(../img/bg_sns.png) no-repeat 0 66%;}
+.sns ul li .ytb{background: url(../img/bg_sns.png) no-repeat 0 100%;}
